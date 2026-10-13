@@ -33,7 +33,7 @@ Graduated basic port-permissive access rules into deep payload inspection polici
 
 ### 📊 Artifact 1: System Dashboard Overview
 Validates active Control Plane operations, showing a secure out-of-band management login session originating from the local administrative host (`10.30.11.101`) to the firewall's administration GUI (`10.30.11.11`).
-![System Dashboard Summary](1_panos_dashboard_overview.png)
+![System Dashboard Summary](1_panos_system_dashboard_overview)
 
 ### 📈 Artifact 2: Data Plane Traffic Log Verification
 Provides production proof of execution. Captures the firewall actively performing Layer 7 identification (classifying traffic streams as `ssl`, `web-browsing`, and `quic-base`) and processing packets through the newly configured security policies.
